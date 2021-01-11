@@ -19,4 +19,5 @@ steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-jim = User.new(Jim)
+jim = User.new(Jim, Mackey)
+jim.learn
